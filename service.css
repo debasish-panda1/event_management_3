@@ -1,0 +1,125 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fce4ec;;
+}
+
+header {
+    background-color: rgb(203, 62, 149); /* Pink */
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-weight: 600;
+    height: 10vh;
+}
+
+.logo a {
+    font-size: 1.8em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 0.5px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: rgb(208, 67, 154); /* Lighter Pink */
+}
+
+/* Styles for Services section */
+.services-section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.services-section h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(208, 67, 154); /* Lighter Pink */
+    margin-bottom: 20px;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #fce4ec96;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+}
+
+.service img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.service-description {
+    flex: 1;
+}
+
+.service-description h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: rgb(208, 67, 154); /* Lighter Pink */
+}
+
+.service-description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-weight:500;
+    color: #090707;
+    margin-bottom: 15px;
+}
+
+.service-description ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.service-description ul li {
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.856);
+    margin-bottom: 5px;
+}
